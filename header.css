@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* overflow: hidden; */
+}
+
+.topbar{
+    height: 40px;
+    background-color: #274973;
+    justify-content: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.topbar>.topnavbar{
+     height: 100%;
+     width: 85%;
+     display: flex;
+     align-items: center;   
+}
+
+.topbar>.topnavbar>.menu{
+    height: 100%;
+    width: 52%;
+
+}
+
+.topbar>.topnavbar>.menu>ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.topbar>.topnavbar>.menu>ul>li{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.topbar>.topnavbar>.menu>ul>li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.topbar>.topnavbar>.contact{
+    height: 100%;
+    width: 48%;
+
+}
+.topbar>.topnavbar>.contact>ul{
+    height: 100%;
+    width: 100%;
+    padding-right: 21px;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    align-items: center;
+}
+
+.topbar>.topnavbar>.contact>ul>li{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.topbar>.topnavbar>.contact>ul>li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#header>.topbanner{
+    background-color: #032848;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#header>.topbanner>img{
+    width: 1600px;
+    padding-top: 5px;
+    min-width: 82%;
+    max-width: 82%;
+   
+}
+
+#header>.navbar{
+    width: 100%;
+    height: 35%;
+    background-color:#174973;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header>.navbar>nav{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 82%;
+
+}
+
+#header>.navbar>nav>ul{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    list-style-type: none;
+    
+    
+}
+
+#header>.navbar>nav>ul>li{
+    color: white;
+    padding: 24px;
+    font-size: 25px;
+}
+
+/* dropdown1 */
+
+.dropdown1{
+    display:none;
+}
+
+#header>.navbar>nav>ul>li:hover>.dropdown1{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 245px;
+    left: 380px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px -2px black;
+}
+
+.dropdown1>ul{
+    display: block;
+    background-color: white;
+    padding: 20px 0;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 20px 0;
+}
+.dropdown1>ul>li{
+    list-style-type: none;
+    padding: 4px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(242, 240, 240);
+    margin: 20px;
+}
+
+
+/* dropdown2 */
+
+.dropdown2{
+    display:none;
+}
+
+#header>.navbar>nav>ul>li:hover>.dropdown2{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 245px;
+    left: 500px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px -2px black;
+}
+
+.dropdown2>ul{
+    display: block;
+    background-color: white;
+    padding: 20px 0;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 20px 0;
+}
+.dropdown2>ul>li{
+    list-style-type: none;
+    padding: 4px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(242, 240, 240);
+    margin: 20px;
+}
+
+
+/* dropdown3 */
+
+.dropdown3{
+    display:none;
+}
+
+#header>.navbar>nav>ul>li:hover>.dropdown3{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 245px;
+    left: 650px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px -2px black;
+}
+
+.dropdown3>ul{
+    display: block;
+    background-color: white;
+    padding: 20px 0;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 20px 0;
+}
+.dropdown3>ul>li{
+    list-style-type: none;
+    padding: 4px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(242, 240, 240);
+    margin: 20px;
+}
+
+
+/* dropdown4 */
+
+.dropdown4{
+    display:none;
+}
+
+#header>.navbar>nav>ul>li:hover>.dropdown4{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 245px;
+    left: 780px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px -2px black;
+}
+
+.dropdown4>ul{
+    display: block;
+    background-color: white;
+    padding: 20px 0;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 20px 0;
+}
+.dropdown4>ul>li{
+    list-style-type: none;
+    padding: 4px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(242, 240, 240);
+    margin: 20px;
+}
+
+
+
+/* dropdown5 */
+
+.dropdown5{
+    display:none;
+}
+
+#header>.navbar>nav>ul>li:hover>.dropdown5{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 245px;
+    left: 950px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px -2px black;
+}
+
+.dropdown5>ul{
+    display: block;
+    background-color: white;
+    padding: 20px 0;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 20px 0;
+}
+.dropdown5>ul>li{
+    list-style-type: none;
+    padding: 4px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(242, 240, 240);
+    margin: 20px;
+}
+
+
+
+/* dropdown6 */
+
+.dropdown6{
+    display:none;
+}
+
+#header>.navbar>nav>ul>li:hover>.dropdown6{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 245px;
+    left: 1100px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px -2px black;
+}
+
+.dropdown6>ul{
+    display: block;
+    background-color: white;
+    padding: 20px 0;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 20px 0;
+}
+.dropdown6>ul>li{
+    list-style-type: none;
+    padding: 4px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(242, 240, 240);
+    margin: 20px;
+}
+
+#header>.navbar>nav>.searchbar{
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1px;
+    h4{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 10px;
+    }
+}
+
+
+#header>.navbar>nav>.searchbar>input{
+    width: 114px;
+    border-radius: 10px;
+    padding-left: 7px;
+    border: none;
+    height: 27px;
+    background-color: antiquewhite;
+    font-size: 13px;
+}
+
+.flashnews{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(2, 12, 68);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.flashnews>.flashnews-innerdiv{
+    width:80% ;
+    height: 100%;
+    background-color:rgb(2, 12, 68);
+    display: flex;
+    align-items: center;  
+    font-size: 34px; 
+    color: white;
+
+}
+#flash{
+    color: yellow;
+}
